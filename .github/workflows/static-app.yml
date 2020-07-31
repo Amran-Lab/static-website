@@ -26,6 +26,8 @@ jobs:
       run: |
         aws s3 rm s3://test-bucket-amran/index.html
         aws s3 cp index.html s3://test-bucket-amran/index.html
+    - name: S3 update
+      run: |
         aws cloudfront create-invalidation \
           --distribution-id E3H7PRB2FDWZ5I \
           --paths "index.html"
