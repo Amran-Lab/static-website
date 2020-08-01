@@ -7,6 +7,6 @@ Link to my blog - [dev.to-blog](https://dev.to/amranlab/serverless-website-how-i
 
 Cloud Resume Challenge - [resume-instrucions](https://cloudresumechallenge.dev/instructions/)
 
-This is the frontend of the serverless website which is hosted on an S3 bucked and delivered using Cloudfront and routed
+This is the frontend of the serverless website which is hosted on an S3 bucket, delivered using Cloudfront and routed
 using Route 53. The backend github repositary will be made public later.
 
